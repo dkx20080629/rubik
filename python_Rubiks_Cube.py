@@ -411,9 +411,10 @@ def step4(side):
       elif side4[1][0] == side4[1][1]:
          D(Dside, side1, side6)
          print("D")
-   while side5[1] != side5[0]:
-      D(Dside, side1, side6)
-      print("D")
+for i in range(4):
+    if side5[1] != side5[0]:
+        D(Dside, side1, side6)
+        print("D")
 print("公式如下:")
 print("____________________")
 step1(side)
