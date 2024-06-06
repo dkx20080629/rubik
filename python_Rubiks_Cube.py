@@ -1,4 +1,4 @@
-print("請選擇文:w一面輸入顏色(英, o, g, r, b, y):")
+print("請選擇一面輸入顏色(英文:w, o, g, r, b, y):")
 side1 = [list(input().split()) for _ in range(2)]
 print("由上往下轉一個面並輸入顏色:")
 side2 = [list(input().split()) for _ in range(2)]
