@@ -324,7 +324,7 @@ def step3(side):
    elif side4[0][0] == side4[0][1]:
       U_(Uside, side1, side6)
       print("U'")
-   elif side2[0][0] == side2[0][0]:
+   elif side2[0][0] == side2[0][1]:
       U(Uside, side1, side6)
       print("U")
    elif side3[0][0] != side3[0][1] and side2[0][0] != side2[0][1] and side4[0][0] != side4[0][1] and side5[0][0] != side5[0][1]:
