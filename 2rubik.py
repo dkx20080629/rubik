@@ -1,4 +1,4 @@
-"""print("請選擇一面輸入顏色(英文:w, o, g, r, b, y):")
+print("請選擇一面輸入顏色(英文:w, o, g, r, b, y):")
 side1 = [list(input().split()) for _ in range(2)]
 print("由上往下轉一個面並輸入顏色:")
 side2 = [list(input().split()) for _ in range(2)]
@@ -10,13 +10,8 @@ print("由左往右轉一個面並輸入顏色:")
 side5 = [list(input().split()) for _ in range(2)]
 print("由左往右轉一個面 再由上往下轉一個面並輸入顏色:")
 side6 = [list(input().split()) for _ in range(2)]
-print("以第1個輸入的面朝下 第2個輸入的面朝自己")"""
-side1 = [["g","r"],["o","r"]]
-side2 = [["w","g"],["o","b"]]
-side3 = [["r","b"],["y","y"]]
-side4 = [["y","w"],["g","w"]]
-side5 = [["r","o"],["g","y"]]
-side6 = [["b","o"],["b","w"]]
+print("以第1個輸入的面朝下 第2個輸入的面朝自己")
+
 side = [side1,side2,side3,side4,side5,side6]
 Uside = [side2, side3, side4, side5]
 Fside = [side1, side3, side5, side6]
